@@ -29,6 +29,7 @@ void swap_ints(int *a, int *b)
 int lomuto_partition(int *array, size_t size, int left, int right)
 {
 	int *driver, up, down;
+
 	driver = array + right;
 
 	for (up = down = left; down < right; down++)
