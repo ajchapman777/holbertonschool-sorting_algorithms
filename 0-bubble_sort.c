@@ -7,6 +7,7 @@
 void swap_ints(int *a, int *b)
 {
 	int tmp;
+
 	tmp = *a;
 	*a = *b;
 	*b = tmp;
@@ -40,4 +41,4 @@ void bubble_sort(int *array, size_t size)
 		}
 		len--;
 	}
-} 
+}
